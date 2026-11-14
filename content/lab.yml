@@ -102,7 +102,7 @@ research:
   areas:
     - id: learned-dynamics
       number: "01"
-      title: Learning molecular dynamics
+      title: Advancing molecular dynamics with machine learning
       summary: Learning how systems evolve, with graph-based simulators that can start from a
         single structure and generalize beyond their training data.
       question: How can a learned simulator start from a single structure and remain useful
@@ -119,7 +119,7 @@ research:
       publication_ids: [gnn-2026]
     - id: free-energy-landscapes
       number: "02"
-      title: Engineering free-energy landscapes and kinetics
+      title: Engineering peptide free-energy landscapes and kinetics
       summary: Connecting molecular changes to stability and transition rates, and using
         generative models to work toward target conformational ensembles.
       question: How can we tune which molecular states are populated, and how quickly a system
@@ -178,7 +178,7 @@ people:
     orcid: https://orcid.org/0000-0002-2408-3133
   - id: sergey-shteingoltz
     name: Sergey Shteingoltz
-    role: PhD Student
+    role: PhD candidate
     image: /assets/people/sergey-shteingoltz.jpg
     website: https://shteingolts.github.io/
     bio: >-
@@ -190,26 +190,28 @@ people:
     status: alumni
     role: Former PhD student
     bio: >-
-      Salman joined the group in October 2023. He has a BSc and MSc with honors in Computer Science
-      from Leipzig University and the University of Strathclyde, respectively. His primary focus was
-      on machine learning, search-based optimization techniques and algorithms, with background in
-      theoretical computer science. Salman's research interests include the intersection of deep and
-      machine learning with physics and chemistry, scientific computing, and algorithmic information
-      theory.
+      During his PhD studies, Salman first-authored a paper on disordered elastic networks
+      and co-authored other work on machine-learning simulations.
+    bio_sources:
+      - https://doi.org/10.1063/5.0282871
+      - https://doi.org/10.1021/acs.jctc.6c01145
+      - https://arxiv.org/abs/2609.06655
   - id: muralika-medaparambath
     name: Muralika Medaparambath
     status: alumni
     role: Former MSc student
     bio: >-
-      Muralika was an MSc student in Applied Mathematics at the Technion, with research
-      interests in computational and statistical approaches to protein folding and dynamics.
+      Muralika first-authored a paper on peptide folding during her MSc and is now pursuing
+      a PhD in Switzerland.
+    bio_sources:
+      - https://doi.org/10.1021/acs.jcim.6c00674
   - id: alex-zhilkin
     name: Alex Zhilkin
-    role: PhD Student
+    role: PhD candidate
     image: /assets/people/alex-zhilkin.jpg
     website: https://alex-zhilkin.github.io/
     bio: >-
-      I’m a PhD student with an MSc in Theoretical and Computational Methods from the University of
+      I’m a PhD candidate with an MSc in Theoretical and Computational Methods from the University of
       Helsinki, where I also worked as a research assistant in the Sum of Products group. During my
       master’s I focused on developing statistical and computational methods for machine learning,
       aimed at building more general tools for understanding and modeling data. Besides academia, I
@@ -219,7 +221,7 @@ people:
       applications.
   - id: eli-zick
     name: Eli Zick
-    role: PhD Student
+    role: PhD candidate
     image: /assets/people/eli-zick.png
     bio: >-
       Eli joined the CME Group in April 2025. He has an MSc in Physics from Ural Federal University
@@ -227,7 +229,7 @@ people:
       the field of NMR.
   - id: eli-eydlin
     name: Eli Eydlin
-    role: PhD candidate
+    role: PhD student
     image: /assets/people/eli-eydlin.jpg
     image_source: https://r-consortium.org/posts/building-bridges-in-haifa-israel/
     website: https://github.com/EydlinIlya
@@ -595,14 +597,12 @@ positions:
     postdocs.
   backgrounds:
     [
-      Chemical engineering,
+      Machine learning,
+      Applied mathematics,
       Physics,
-      Chemistry,
-      Materials science,
-      Computer science,
-      Related disciplines
+      Computational chemistry
     ]
   details: >-
-    Candidates from these and related disciplines are welcome to contact Dr. Dan Mendels
-    to discuss research opportunities.
-  contact_label: Contact Dr. Mendels
+    We welcome candidates with backgrounds in the fields below or in related areas.
+    Contact Prof. Dan Mendels to discuss research opportunities.
+  contact_label: Contact Prof. Mendels
